@@ -1,0 +1,767 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		435BAD8BF57D3317E15BD865 /* Pods_SingPortoSeguroTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DB7434DCADAF487C6FA8267 /* Pods_SingPortoSeguroTests.framework */; };
+		7536D339710AEB2C05EB7252 /* Pods_SingPortoSeguroUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FE87626E82310BDD0C3892F /* Pods_SingPortoSeguroUITests.framework */; };
+		CD9F5CB71DB12CB600948A0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9F5CB61DB12CB600948A0A /* AppDelegate.swift */; };
+		CD9F5CB91DB12CB600948A0A /* SpeechViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9F5CB81DB12CB600948A0A /* SpeechViewController.swift */; };
+		CD9F5CBC1DB12CB600948A0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD9F5CBA1DB12CB600948A0A /* Main.storyboard */; };
+		CD9F5CBF1DB12CB600948A0A /* SingPortoSeguro.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CD9F5CBD1DB12CB600948A0A /* SingPortoSeguro.xcdatamodeld */; };
+		CD9F5CC11DB12CB600948A0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD9F5CC01DB12CB600948A0A /* Assets.xcassets */; };
+		CD9F5CC41DB12CB600948A0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD9F5CC21DB12CB600948A0A /* LaunchScreen.storyboard */; };
+		CD9F5CCF1DB12CB600948A0A /* SingPortoSeguroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9F5CCE1DB12CB600948A0A /* SingPortoSeguroTests.swift */; };
+		CD9F5CDA1DB12CB600948A0A /* SingPortoSeguroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9F5CD91DB12CB600948A0A /* SingPortoSeguroUITests.swift */; };
+		CD9F5CE81DB155EE00948A0A /* StringScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9F5CE71DB155EE00948A0A /* StringScore.swift */; };
+		CD9F5CEB1DB1685400948A0A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9F5CEA1DB1685400948A0A /* LoginViewController.swift */; };
+		CF770DD5F25E7470CBB9C0E3 /* Pods_SingPortoSeguro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DF74A381CEF4EB331C44F83 /* Pods_SingPortoSeguro.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD9F5CCB1DB12CB600948A0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD9F5CAB1DB12CB600948A0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD9F5CB21DB12CB600948A0A;
+			remoteInfo = SingPortoSeguro;
+		};
+		CD9F5CD61DB12CB600948A0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD9F5CAB1DB12CB600948A0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD9F5CB21DB12CB600948A0A;
+			remoteInfo = SingPortoSeguro;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1FE87626E82310BDD0C3892F /* Pods_SingPortoSeguroUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SingPortoSeguroUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DF74A381CEF4EB331C44F83 /* Pods_SingPortoSeguro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SingPortoSeguro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C8E9EEABE14B6C633F7447B /* Pods-SingPortoSeguro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SingPortoSeguro.release.xcconfig"; path = "Pods/Target Support Files/Pods-SingPortoSeguro/Pods-SingPortoSeguro.release.xcconfig"; sourceTree = "<group>"; };
+		3DB7434DCADAF487C6FA8267 /* Pods_SingPortoSeguroTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SingPortoSeguroTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		55189F66348ACFB5F92ED07B /* Pods-SingPortoSeguro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SingPortoSeguro.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SingPortoSeguro/Pods-SingPortoSeguro.debug.xcconfig"; sourceTree = "<group>"; };
+		7B0C4A4F99C2C87713A7C06D /* Pods-SingPortoSeguroTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SingPortoSeguroTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SingPortoSeguroTests/Pods-SingPortoSeguroTests.release.xcconfig"; sourceTree = "<group>"; };
+		9D88156F6358582B53509532 /* Pods-SingPortoSeguroUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SingPortoSeguroUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SingPortoSeguroUITests/Pods-SingPortoSeguroUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CBBC09817B5BE6E549C30094 /* Pods-SingPortoSeguroTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SingPortoSeguroTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SingPortoSeguroTests/Pods-SingPortoSeguroTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CD9F5CB31DB12CB600948A0A /* SingPortoSeguro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SingPortoSeguro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD9F5CB61DB12CB600948A0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD9F5CB81DB12CB600948A0A /* SpeechViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechViewController.swift; sourceTree = "<group>"; };
+		CD9F5CBB1DB12CB600948A0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD9F5CBE1DB12CB600948A0A /* SingPortoSeguro.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SingPortoSeguro.xcdatamodel; sourceTree = "<group>"; };
+		CD9F5CC01DB12CB600948A0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD9F5CC31DB12CB600948A0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD9F5CC51DB12CB600948A0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD9F5CCA1DB12CB600948A0A /* SingPortoSeguroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SingPortoSeguroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD9F5CCE1DB12CB600948A0A /* SingPortoSeguroTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingPortoSeguroTests.swift; sourceTree = "<group>"; };
+		CD9F5CD01DB12CB600948A0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD9F5CD51DB12CB600948A0A /* SingPortoSeguroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SingPortoSeguroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD9F5CD91DB12CB600948A0A /* SingPortoSeguroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingPortoSeguroUITests.swift; sourceTree = "<group>"; };
+		CD9F5CDB1DB12CB600948A0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD9F5CE71DB155EE00948A0A /* StringScore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StringScore.swift; path = Frameworks/StringScore.swift; sourceTree = "<group>"; };
+		CD9F5CEA1DB1685400948A0A /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		E786ABA925CA5FF0C20296F6 /* Pods-SingPortoSeguroUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SingPortoSeguroUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SingPortoSeguroUITests/Pods-SingPortoSeguroUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD9F5CB01DB12CB600948A0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF770DD5F25E7470CBB9C0E3 /* Pods_SingPortoSeguro.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD9F5CC71DB12CB600948A0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				435BAD8BF57D3317E15BD865 /* Pods_SingPortoSeguroTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD9F5CD21DB12CB600948A0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7536D339710AEB2C05EB7252 /* Pods_SingPortoSeguroUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5DA2676FFA145A2BA46111F5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				55189F66348ACFB5F92ED07B /* Pods-SingPortoSeguro.debug.xcconfig */,
+				3C8E9EEABE14B6C633F7447B /* Pods-SingPortoSeguro.release.xcconfig */,
+				CBBC09817B5BE6E549C30094 /* Pods-SingPortoSeguroTests.debug.xcconfig */,
+				7B0C4A4F99C2C87713A7C06D /* Pods-SingPortoSeguroTests.release.xcconfig */,
+				9D88156F6358582B53509532 /* Pods-SingPortoSeguroUITests.debug.xcconfig */,
+				E786ABA925CA5FF0C20296F6 /* Pods-SingPortoSeguroUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AFFE7C1B0D2AD2060905D6F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2DF74A381CEF4EB331C44F83 /* Pods_SingPortoSeguro.framework */,
+				3DB7434DCADAF487C6FA8267 /* Pods_SingPortoSeguroTests.framework */,
+				1FE87626E82310BDD0C3892F /* Pods_SingPortoSeguroUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD9F5CAA1DB12CB600948A0A = {
+			isa = PBXGroup;
+			children = (
+				CD9F5CB51DB12CB600948A0A /* SingPortoSeguro */,
+				CD9F5CCD1DB12CB600948A0A /* SingPortoSeguroTests */,
+				CD9F5CD81DB12CB600948A0A /* SingPortoSeguroUITests */,
+				CD9F5CB41DB12CB600948A0A /* Products */,
+				5DA2676FFA145A2BA46111F5 /* Pods */,
+				AFFE7C1B0D2AD2060905D6F5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CD9F5CB41DB12CB600948A0A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD9F5CB31DB12CB600948A0A /* SingPortoSeguro.app */,
+				CD9F5CCA1DB12CB600948A0A /* SingPortoSeguroTests.xctest */,
+				CD9F5CD51DB12CB600948A0A /* SingPortoSeguroUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD9F5CB51DB12CB600948A0A /* SingPortoSeguro */ = {
+			isa = PBXGroup;
+			children = (
+				CD9F5CE91DB155F100948A0A /* Frameworks */,
+				CD9F5CB61DB12CB600948A0A /* AppDelegate.swift */,
+				CD9F5CB81DB12CB600948A0A /* SpeechViewController.swift */,
+				CD9F5CEA1DB1685400948A0A /* LoginViewController.swift */,
+				CD9F5CBA1DB12CB600948A0A /* Main.storyboard */,
+				CD9F5CC01DB12CB600948A0A /* Assets.xcassets */,
+				CD9F5CC21DB12CB600948A0A /* LaunchScreen.storyboard */,
+				CD9F5CC51DB12CB600948A0A /* Info.plist */,
+				CD9F5CBD1DB12CB600948A0A /* SingPortoSeguro.xcdatamodeld */,
+			);
+			path = SingPortoSeguro;
+			sourceTree = "<group>";
+		};
+		CD9F5CCD1DB12CB600948A0A /* SingPortoSeguroTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD9F5CCE1DB12CB600948A0A /* SingPortoSeguroTests.swift */,
+				CD9F5CD01DB12CB600948A0A /* Info.plist */,
+			);
+			path = SingPortoSeguroTests;
+			sourceTree = "<group>";
+		};
+		CD9F5CD81DB12CB600948A0A /* SingPortoSeguroUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD9F5CD91DB12CB600948A0A /* SingPortoSeguroUITests.swift */,
+				CD9F5CDB1DB12CB600948A0A /* Info.plist */,
+			);
+			path = SingPortoSeguroUITests;
+			sourceTree = "<group>";
+		};
+		CD9F5CE91DB155F100948A0A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD9F5CE71DB155EE00948A0A /* StringScore.swift */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD9F5CB21DB12CB600948A0A /* SingPortoSeguro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD9F5CDE1DB12CB600948A0A /* Build configuration list for PBXNativeTarget "SingPortoSeguro" */;
+			buildPhases = (
+				B61EFEE181BE477E93A1CAAA /* [CP] Check Pods Manifest.lock */,
+				CD9F5CAF1DB12CB600948A0A /* Sources */,
+				CD9F5CB01DB12CB600948A0A /* Frameworks */,
+				CD9F5CB11DB12CB600948A0A /* Resources */,
+				03790AB637FC5932049C9B2E /* [CP] Embed Pods Frameworks */,
+				95D3D0FE57F5A97D2F72E132 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SingPortoSeguro;
+			productName = SingPortoSeguro;
+			productReference = CD9F5CB31DB12CB600948A0A /* SingPortoSeguro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD9F5CC91DB12CB600948A0A /* SingPortoSeguroTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD9F5CE11DB12CB600948A0A /* Build configuration list for PBXNativeTarget "SingPortoSeguroTests" */;
+			buildPhases = (
+				BF84EE34D6DAE19D66E50E9B /* [CP] Check Pods Manifest.lock */,
+				CD9F5CC61DB12CB600948A0A /* Sources */,
+				CD9F5CC71DB12CB600948A0A /* Frameworks */,
+				CD9F5CC81DB12CB600948A0A /* Resources */,
+				FAA2F1A0478BC4C4A9372B22 /* [CP] Embed Pods Frameworks */,
+				799A7FA83901F4B8CDD4740D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD9F5CCC1DB12CB600948A0A /* PBXTargetDependency */,
+			);
+			name = SingPortoSeguroTests;
+			productName = SingPortoSeguroTests;
+			productReference = CD9F5CCA1DB12CB600948A0A /* SingPortoSeguroTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD9F5CD41DB12CB600948A0A /* SingPortoSeguroUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD9F5CE41DB12CB600948A0A /* Build configuration list for PBXNativeTarget "SingPortoSeguroUITests" */;
+			buildPhases = (
+				C9C00324A21CEAD5BD034690 /* [CP] Check Pods Manifest.lock */,
+				CD9F5CD11DB12CB600948A0A /* Sources */,
+				CD9F5CD21DB12CB600948A0A /* Frameworks */,
+				CD9F5CD31DB12CB600948A0A /* Resources */,
+				3F751C12020961A7F1C9BFB7 /* [CP] Copy Pods Resources */,
+				A16FE706C04183FDCA76E9ED /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD9F5CD71DB12CB600948A0A /* PBXTargetDependency */,
+			);
+			name = SingPortoSeguroUITests;
+			productName = SingPortoSeguroUITests;
+			productReference = CD9F5CD51DB12CB600948A0A /* SingPortoSeguroUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD9F5CAB1DB12CB600948A0A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Humberto Vieira";
+				TargetAttributes = {
+					CD9F5CB21DB12CB600948A0A = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = LCZDDBK62C;
+						ProvisioningStyle = Automatic;
+					};
+					CD9F5CC91DB12CB600948A0A = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = LCZDDBK62C;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CD9F5CB21DB12CB600948A0A;
+					};
+					CD9F5CD41DB12CB600948A0A = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = LCZDDBK62C;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CD9F5CB21DB12CB600948A0A;
+					};
+				};
+			};
+			buildConfigurationList = CD9F5CAE1DB12CB600948A0A /* Build configuration list for PBXProject "SingPortoSeguro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD9F5CAA1DB12CB600948A0A;
+			productRefGroup = CD9F5CB41DB12CB600948A0A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD9F5CB21DB12CB600948A0A /* SingPortoSeguro */,
+				CD9F5CC91DB12CB600948A0A /* SingPortoSeguroTests */,
+				CD9F5CD41DB12CB600948A0A /* SingPortoSeguroUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD9F5CB11DB12CB600948A0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD9F5CC41DB12CB600948A0A /* LaunchScreen.storyboard in Resources */,
+				CD9F5CC11DB12CB600948A0A /* Assets.xcassets in Resources */,
+				CD9F5CBC1DB12CB600948A0A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD9F5CC81DB12CB600948A0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD9F5CD31DB12CB600948A0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03790AB637FC5932049C9B2E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SingPortoSeguro/Pods-SingPortoSeguro-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F751C12020961A7F1C9BFB7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SingPortoSeguroUITests/Pods-SingPortoSeguroUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		799A7FA83901F4B8CDD4740D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SingPortoSeguroTests/Pods-SingPortoSeguroTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95D3D0FE57F5A97D2F72E132 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SingPortoSeguro/Pods-SingPortoSeguro-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A16FE706C04183FDCA76E9ED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SingPortoSeguroUITests/Pods-SingPortoSeguroUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B61EFEE181BE477E93A1CAAA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BF84EE34D6DAE19D66E50E9B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C9C00324A21CEAD5BD034690 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FAA2F1A0478BC4C4A9372B22 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SingPortoSeguroTests/Pods-SingPortoSeguroTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD9F5CAF1DB12CB600948A0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD9F5CB91DB12CB600948A0A /* SpeechViewController.swift in Sources */,
+				CD9F5CB71DB12CB600948A0A /* AppDelegate.swift in Sources */,
+				CD9F5CBF1DB12CB600948A0A /* SingPortoSeguro.xcdatamodeld in Sources */,
+				CD9F5CEB1DB1685400948A0A /* LoginViewController.swift in Sources */,
+				CD9F5CE81DB155EE00948A0A /* StringScore.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD9F5CC61DB12CB600948A0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD9F5CCF1DB12CB600948A0A /* SingPortoSeguroTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD9F5CD11DB12CB600948A0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD9F5CDA1DB12CB600948A0A /* SingPortoSeguroUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD9F5CCC1DB12CB600948A0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD9F5CB21DB12CB600948A0A /* SingPortoSeguro */;
+			targetProxy = CD9F5CCB1DB12CB600948A0A /* PBXContainerItemProxy */;
+		};
+		CD9F5CD71DB12CB600948A0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD9F5CB21DB12CB600948A0A /* SingPortoSeguro */;
+			targetProxy = CD9F5CD61DB12CB600948A0A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD9F5CBA1DB12CB600948A0A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD9F5CBB1DB12CB600948A0A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD9F5CC21DB12CB600948A0A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD9F5CC31DB12CB600948A0A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD9F5CDC1DB12CB600948A0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD9F5CDD1DB12CB600948A0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD9F5CDF1DB12CB600948A0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55189F66348ACFB5F92ED07B /* Pods-SingPortoSeguro.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LCZDDBK62C;
+				INFOPLIST_FILE = SingPortoSeguro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = in.indice.SingPortoSeguro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CD9F5CE01DB12CB600948A0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C8E9EEABE14B6C633F7447B /* Pods-SingPortoSeguro.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LCZDDBK62C;
+				INFOPLIST_FILE = SingPortoSeguro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = in.indice.SingPortoSeguro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		CD9F5CE21DB12CB600948A0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBBC09817B5BE6E549C30094 /* Pods-SingPortoSeguroTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = LCZDDBK62C;
+				INFOPLIST_FILE = SingPortoSeguroTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = in.indice.SingPortoSeguroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SingPortoSeguro.app/SingPortoSeguro";
+			};
+			name = Debug;
+		};
+		CD9F5CE31DB12CB600948A0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B0C4A4F99C2C87713A7C06D /* Pods-SingPortoSeguroTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = LCZDDBK62C;
+				INFOPLIST_FILE = SingPortoSeguroTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = in.indice.SingPortoSeguroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SingPortoSeguro.app/SingPortoSeguro";
+			};
+			name = Release;
+		};
+		CD9F5CE51DB12CB600948A0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D88156F6358582B53509532 /* Pods-SingPortoSeguroUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = LCZDDBK62C;
+				INFOPLIST_FILE = SingPortoSeguroUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = in.indice.SingPortoSeguroUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SingPortoSeguro;
+			};
+			name = Debug;
+		};
+		CD9F5CE61DB12CB600948A0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E786ABA925CA5FF0C20296F6 /* Pods-SingPortoSeguroUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = LCZDDBK62C;
+				INFOPLIST_FILE = SingPortoSeguroUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = in.indice.SingPortoSeguroUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SingPortoSeguro;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD9F5CAE1DB12CB600948A0A /* Build configuration list for PBXProject "SingPortoSeguro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD9F5CDC1DB12CB600948A0A /* Debug */,
+				CD9F5CDD1DB12CB600948A0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD9F5CDE1DB12CB600948A0A /* Build configuration list for PBXNativeTarget "SingPortoSeguro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD9F5CDF1DB12CB600948A0A /* Debug */,
+				CD9F5CE01DB12CB600948A0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD9F5CE11DB12CB600948A0A /* Build configuration list for PBXNativeTarget "SingPortoSeguroTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD9F5CE21DB12CB600948A0A /* Debug */,
+				CD9F5CE31DB12CB600948A0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD9F5CE41DB12CB600948A0A /* Build configuration list for PBXNativeTarget "SingPortoSeguroUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD9F5CE51DB12CB600948A0A /* Debug */,
+				CD9F5CE61DB12CB600948A0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CD9F5CBD1DB12CB600948A0A /* SingPortoSeguro.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CD9F5CBE1DB12CB600948A0A /* SingPortoSeguro.xcdatamodel */,
+			);
+			currentVersion = CD9F5CBE1DB12CB600948A0A /* SingPortoSeguro.xcdatamodel */;
+			path = SingPortoSeguro.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CD9F5CAB1DB12CB600948A0A /* Project object */;
+}
